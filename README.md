@@ -1,13 +1,5 @@
-# React.js Projects
-
-Welcome, are you looking for my [React.js](https://reactjs.org) Projects? If you are, you're in the right place. All my projects are located in its own branches. If you have problems locating the branches, there is a guide below.
-
-## Locating Branches
-
-First, click on branches:
-![image](https://user-images.githubusercontent.com/59381835/83589891-6241f580-a509-11ea-86a7-5e846d4089a8.png)
-
-You'll find the list of projects there.
+## 🐍 Snake Game
+This is a simple and modern snake game created by `zhon12345`. You can move the snake using the `WASD` keys or using the `Arrow Keys`. There is also a counter on the top left that helps you keep track of your score. It is coded using [HTML](https://www.w3.org/html/), [CSS](https://www.w3schools.com/css/) and [Vanilla JavaScript](https://www.javascript.com/). You can view a live demo of this project [here](https://zhon12345-snake-game.netlify.app/).
 
 ## 📄 License
-All my project is licensed under the Apache License 2.0 - see the LICENSE file in each of the branches for details.
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
