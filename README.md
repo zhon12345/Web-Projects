@@ -1,6 +1,6 @@
-# React.js Projects
+# zhon12345's Web-Applications
 
-Welcome, are you looking for my [React.js](https://reactjs.org) Projects? If you are, you're in the right place. All my projects are located in its own branches. If you have problems locating the branches, there is a guide below.
+Welcome, are you looking for my Web Applications? If you are, you're in the right place. Most are my projetcs are coded with [HTML](https://www.w3.org/html/), [CSS](https://www.w3schools.com/css/) and [JavaScript](https://www.javascript.com/) but some are coded with [React.js](https://reactjs.org). All my projects are located in its own branches. If you have problems locating the branches, there is a guide below.
 
 ## Locating Branches
 
