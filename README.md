@@ -5,9 +5,12 @@ Welcome, are you looking for my Web Applications? If you are, you're in the righ
 ## Locating Branches
 
 First, click on branches:
-![image](https://user-images.githubusercontent.com/59381835/83589891-6241f580-a509-11ea-86a7-5e846d4089a8.png)
+![image](https://i.imgur.com/p6oZgpb.png)
 
 You'll find the list of projects there.
+
+
+![image](https://i.imgur.com/7L8916B.png)
 
 ## 📄 License
 All my project is licensed under the Apache License 2.0 - see the LICENSE file in each of the branches for details.
