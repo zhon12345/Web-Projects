@@ -1,131 +1,137 @@
-*, *::before, *::after{
-    box-sizing: border-box;
-    font-family: Bahnschrift, sans-serif;
-    font-weight: normal;
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	font-family: Bahnschrift, sans-serif;
+	font-weight: normal;
 }
 
 body {
-    --side-color: #4e4e4e;
-    --top-color: #737373;
-    --number-color: #909090;
-    --output-color: #e2dfdb;
-    --hover-color: #d2d2d2;
-    --display: none;
+	--side-color: #4e4e4e;
+	--top-color: #737373;
+	--number-color: #909090;
+	--output-color: #e2dfdb;
+	--hover-color: #d2d2d2;
+	--display: none;
 
-    padding: 0;
-    margin: 0;
-    background-color: #222222;
+	padding: 0;
+	margin: 0;
+	background-color: #222222;
 }
 
 .calculator-grid {
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    min-height: 100vh;
-    grid-template-columns: repeat(4, 80px);
-    grid-template-rows: minmax(120px, auto) repeat(6, 65px);
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	min-height: 100vh;
+	grid-template-columns: repeat(4, 80px);
+	grid-template-rows: minmax(120px, auto) repeat(6, 65px);
 }
 
 .calculator-grid > button {
-    cursor: pointer;
-    font-size: 2rem;
-    border: 0.5px solid white;
-    outline: none;
+	cursor: pointer;
+	font-size: 2rem;
+	border: 0.5px solid white;
+	outline: none;
 }
 
 .calculator-grid > button:hover {
-    background-color: var(--hover-color);
+	background-color: var(--hover-color);
 }
 
 .span-two {
-    grid-column: span 2;
+	grid-column: span 2;
 }
 
 .side-buttons {
-    background-color: var(--side-color);
+	background-color: var(--side-color);
 }
 
 .top-buttons {
-    background-color: var(--top-color);
+	background-color: var(--top-color);
 }
 
 .number-buttons {
-    background-color: var(--number-color);
+	background-color: var(--number-color);
 }
 
 .color-buttons {
-    display: var(--display);
-    border-radius: 50%;
-    position: relative;
-    left: 25%;
-    top: 20%;
-    height: 40px;
-    width: 40px;
+	display: var(--display);
+	border-radius: 50%;
+	position: relative;
+	left: 25%;
+	top: 20%;
+	height: 40px;
+	width: 40px;
 }
 
-button.black, button.black:hover {
-    background-color: #4e4e4e;
+button.black,
+button.black:hover {
+	background-color: #4e4e4e;
 }
 
-button.pink, button.pink:hover {
-    background-color: #F7A3A3;
+button.pink,
+button.pink:hover {
+	background-color: #f7a3a3;
 }
 
-button.green, button.green:hover {
-    background-color: #8dc496;
+button.green,
+button.green:hover {
+	background-color: #8dc496;
 }
 
-button.yellow, button.yellow:hover {
-    background-color: #FEFCAF;
+button.yellow,
+button.yellow:hover {
+	background-color: #fefcaf;
 }
 
 .output {
-    grid-column: 1 / -1;
-    background-color: var(--output-color);
-    border: 1px solid white;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-around;
-    flex-direction: column;
-    padding: 10px;
-    word-wrap: break-word;
-    word-break: break-all;
+	grid-column: 1 / -1;
+	background-color: var(--output-color);
+	border: 1px solid white;
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-around;
+	flex-direction: column;
+	padding: 10px;
+	word-wrap: break-word;
+	word-break: break-all;
 }
 
 .output .previous-operand {
-    color: rgba(0, 0, 0, .75);
-    font-size: 1.5rem;
+	color: rgba(0, 0, 0, 0.75);
+	font-size: 1.5rem;
 }
 
 .output .current-operand {
-    color:black;
-    font-size: 2.5rem;
+	color: black;
+	font-size: 2.5rem;
 }
 
 .yellow {
-    --side-color: #F6D073;
-    --top-color: #f5d985;
-    --number-color: #F4E19F;
-    --output-color: #ffe;
-    --hover-color: #faf3d8;
+	--side-color: #f6d073;
+	--top-color: #f5d985;
+	--number-color: #f4e19f;
+	--output-color: #ffe;
+	--hover-color: #faf3d8;
 }
 
 .green {
-    --side-color: #8dc496;
-    --top-color: #a1e3af;
-    --number-color: #B8F2C9;
-    --output-color: #eeffee;
-    --hover-color: #dbf8e4;
+	--side-color: #8dc496;
+	--top-color: #a1e3af;
+	--number-color: #b8f2c9;
+	--output-color: #eeffee;
+	--hover-color: #dbf8e4;
 }
 
 .pink {
-    --side-color: #F28988;
-    --top-color: #F7A3A3;
-    --number-color: #F8B8B8;
-    --output-color: #F1DBDB;
-    --hover-color: #fce2e2;
+	--side-color: #f28988;
+	--top-color: #f7a3a3;
+	--number-color: #f8b8b8;
+	--output-color: #f1dbdb;
+	--hover-color: #fce2e2;
 }
 
 body.show {
-    --display: block;
+	--display: block;
 }
