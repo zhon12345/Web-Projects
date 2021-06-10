@@ -1,6 +1,6 @@
 # 🗻📃✂ Rock Paper Scissors
 
-This the classic Rock Paper Scissors game that you probably played as a kid. It is coded using [HTML](https://www.w3.org/html/), [CSS](https://www.w3schools.com/css/) and [Vanilla JavaScript](https://www.javascript.com/). Instead of playing with another user, you're playing against a computer. You can view a live demo of this project [here](https://zhon12345-rps.netlify.app).
+This a modified code of [this](https://www.youtube.com/watch?v=jaVNP3nIAv0&t=3014s) tutorial, it is the classic Rock Paper Scissors game that you probably played as a kid. It is coded using [HTML](https://www.w3.org/html/), [CSS](https://www.w3schools.com/css/) and [JavaScript](https://www.javascript.com/). Instead of playing with another user, you're playing against a computer. You can view a live demo of this project [here](https://zhon12345-rps.netlify.app).
 
 ## 📄 Changes
 * Instead of going on forever, it is now a best out of 15 round game against the computer.
