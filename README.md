@@ -4,7 +4,7 @@ This the classic Rock Paper Scissors game that you probably played as a kid. It 
 
 ## 📄 Changes
 * Instead of going on forever, it is now a best out of 15 round game against the computer.
-* When the user either wins or looses the 15 round battle, there is an option to restart the game and set the score back to `0 : 0` as shown in the [preview](https://github.com/zhon12345/Web-Projects/tree/Rock-Paper-Scissors#-preview) below.
+* When the user either wins or looses the 15 round battle, there is an option to restart the game and set the score back to `0 : 0` as shown in the [preview](https://github.com/zhon12345/Web-Projects/tree/Rock-Paper-Scissors#%EF%B8%8F-preview) below.
 
 ## 🖼️ Preview
 
